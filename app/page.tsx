@@ -1,6 +1,5 @@
-// app/page.tsx
-import { BuilderComponent } from '@builder.io/react';
 import { builder } from '@/lib/builder';
+import { BuilderComponent } from '@builder.io/react';
 
 export default async function Home() {
   const content = await builder
